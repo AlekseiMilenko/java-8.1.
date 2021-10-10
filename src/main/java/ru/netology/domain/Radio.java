@@ -58,11 +58,10 @@ public class Radio {
         currentStation = actualCurrentStation;
     }
 
-    public int Station;
+    public int station;
 
-    public int getStation()
-    {
-        return Station;
+    public int getStation() {
+        return station;
     }
 
     public void setStation(int actualStation) {
@@ -72,7 +71,7 @@ public class Radio {
         if (actualStation > 108) {
             return;
         }
-        Station = actualStation;
+        station = actualStation;
     }
 }
 
